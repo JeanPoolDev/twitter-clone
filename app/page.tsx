@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 export default function Home() {
   return (
     <>
-      <Header showBackArrow label='Inicio'/>
+      <Header label='Inicio'/>
     </>
   )
 }

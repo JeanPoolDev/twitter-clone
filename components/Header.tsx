@@ -5,7 +5,8 @@ import { BiArrowBack } from "react-icons/bi";
 
 interface HeaderProps{
   label: string;
-  showBackArrow: boolean;
+  // SE DENERA QUITAR ESTA INTERROGANTE
+  showBackArrow?: boolean;
 }
 
 const Header: React.FC<HeaderProps> = ({label, showBackArrow}) => {
